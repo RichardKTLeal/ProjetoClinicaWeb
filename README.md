@@ -52,7 +52,5 @@ Execute o Servidor
 
 ## DER do Banco
 
-## Screenshots
-
-![App Screenshot](/public/DER/DER.jpeg)
+![App Screenshot](/public/DER/DERClinicaTeste.jpeg)
 
