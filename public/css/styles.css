@@ -1,0 +1,288 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+    background-color: rgb(192, 245, 192);
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+nav img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right:10px
+}
+
+nav {
+    background-color: lightblue;
+}
+
+/* show page */
+
+#alerta {
+    margin: 0 10px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+#erromensagem {
+    color: red;
+    font-weight: 900;
+    margin: 0 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+#button-nav {
+    background-color: rgb(64, 64, 170);
+    border: none;
+    color: #fff;
+}
+
+#button-nav:hover {
+    background-color: rgb(64, 64, 134);
+    border: none;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#button-nav-logout {
+    float: right;
+    background-color: rgb(64, 64, 170);
+    text-decoration: none;
+    border: none;
+    color: #fff;
+}
+
+#button-nav-logout:hover {
+    background-color: rgb(239, 36, 36);
+    border: none;
+}
+
+.btn-primary {
+    background-color:  #9f65eb;
+    border: #b9aacd;
+}
+
+.btn-primary:hover {
+    background-color: #9f65eb;
+    border: #b9aacd;
+}
+
+#navbar {
+    justify-content: space-between;
+    background-color: #b9aacd;
+    padding: 5px 0;
+}
+
+#navbar img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    font-size: 14px;
+    color: #fff;
+}
+
+#navbar a:hover {
+    color: #9f65eb;
+}
+
+#search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    flex-direction: column;
+    gap: 1rem;
+    ;
+}
+
+#search-container h5 {
+    color: rgb(64, 64, 134);
+    margin: 0 10px;
+    font-weight: 900;
+}
+
+#search-container form {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.msgfail{
+    background-color: rgb(219, 64, 64);
+    color: white;
+    font-weight: 900;
+    margin: 0 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.msgconcluido {
+    background-color: rgb(36, 185, 3);
+    color: white;
+    font-weight: 900;
+    margin: 0 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.msgeditar {
+    background-color: rgb(202, 212, 3);
+    color: white;
+    font-weight: 900;
+    margin: 0 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+#pacientes-container {
+    padding: 50px ;
+}
+
+#pacientes-container h2 {
+    color: #9f65eb;
+    margin: 10px;
+    font-weight: 900;
+}
+
+#pacientes-container .subtitle {
+    color: #694993;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#cards-container {
+    display: flex;
+}
+
+#pacientes-container .card {
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5%;
+    background-color: lightblue;
+}
+
+#pacientes-container .card img {
+    max-width: 100%;
+    max-height: 150px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card .card-nome {
+    color: #694993;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card .card-raca {
+    color: #694993;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card .card-tutor {
+    color: #694993;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+#pacientes-create-container {
+    padding: 30px;
+}
+
+#pacientes-create-container label {
+    font-weight: bold;
+}
+
+#pacientes-create-container input,
+#pacientes-create-container textarea {
+    font-size: 12px;
+}
+
+
+
+
+#image-container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 20px 0;
+    flex-direction: column;
+    gap: 0.5rem;
+    /* padding: 50px; */
+}
+
+#image-container h1 {
+    color: #9f65eb;
+    font-weight: 900;
+}
+
+#image-container p {
+    color: #694993;
+    font-weight: 900;
+}
+
+#image-container img {
+    border-radius: 10px;
+}
+
+
+
+#card-body-servico form button{
+    float: right;
+    margin: 4%;
+}
+
+#btn-pacientes-show {
+    position: absolute;
+    margin-top: 4rem;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#btn-servico {
+    /* position: absolute;
+    bottom: 1rem;
+    right: 1rem; */
+    /* bottom: 2rem; */
+}
+
+.btn-servicos {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#card-body-servico {
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
