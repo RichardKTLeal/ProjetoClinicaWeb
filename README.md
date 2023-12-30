@@ -17,6 +17,8 @@ Instalação de dependências
 
 ```bash
   composer install
+```
+```bash
   npm install
 ```
 
@@ -40,15 +42,11 @@ Criação de banco
 
 Execute o Servidor
 ```bash
-  npm run dev
   php artisan serve
 ```
-
-
-
-
-
-
+```bash
+  npm run dev
+```
 
 ## DER do Banco
 
